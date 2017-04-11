@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link type="text/css" href="style.css"  rel="stylesheet" /><title> Tetris in classic javascript</title></head>
+     <body>
+ 
+
+         <div class="content">
+            <div class="conTitle" id="conTitle" >Tetris (in classic javascript)</div> 
+            <div class="conSubTitle" id="conSubTitle">Game Loading ..... </div>
+            <div class="conLeft" id="conLeft" style="min-height:540px; width: 280px; border:1px solid grey;"> 
+             
+            </div>
+            <div class="conCenter" id="conCenter" style="float: left; height:540px; width: 280px; ">
+                <div id="nextShape" style="height: 54px; width: inherit;border:1px solid #f2f2f2; "></div>
+                <div style="font-weight: bold; font-size: 24px; border: 1px solid #f2f2f2; margin-top: 10px; padding: 5px;">Level: &nbsp;&nbsp;<span id="level">1</span></div>
+                <div style="font-weight: bold; font-size: 24px; border: 1px solid #f2f2f2; margin-top: 10px; padding: 5px;">Scores: <span id="scores">0</span></div>
+                <div style="padding: 10px; font-weight: bold; ">Instruction:
+                    <ul><li>Press key ← and → to move the shape</li>
+                        <li>Press key ↑ to rotate the shape </li>
+                        <li>Press key ↓ to accelerate the speed</li>
+                        <li>Score 100, update to new level</li>
+                        
+                      
+                </div>
+            </div>
+         </div>
+          
+<script src="tetris.js"></script>
+    </body>
+</html>
